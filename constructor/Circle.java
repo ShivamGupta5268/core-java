@@ -9,9 +9,9 @@ public class Circle extends Shape {
 		radius = x;
 	}
 
-	public double area() {
+	public void area() {
 		double total = pai * radius * radius;
-		return total; 				// also // System.out.println(total);
+		System.out.println(total); 	// also take return type
 	}
 
 }

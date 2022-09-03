@@ -11,8 +11,8 @@ public class TestShape {
 		r1.fullName();
 
 		Circle c = new Circle(6);
-		double y = c.area();
-		System.out.println(y);
+		c.area();
+		
 
 		Triangle t = new Triangle(3, 4);
 		t.area();
